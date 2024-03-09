@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.bg-image {
+    background-image: url(./Assets/Images/pic1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'batmfa';
+    src: url(/public/batman/batmfa__.ttf) format('truetype');
+  }
+  
+  .batmfa {
+    font-family: 'batmfa', sans-serif;
+  }
+
+  @font-face {
+    font-family: 'batmfo';
+    src: url(/public/batman/batmfo__.ttf) format('truetype');
+  }
+  
+  .batmfo {
+    font-family: 'batmfo', sans-serif;
+  }
