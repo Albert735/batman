@@ -1,12 +1,16 @@
 import React from "react";
-import footerpic from "../Assets/Images/footerpic.png";
+import { FaDiscord } from "react-icons/fa";
+import { FaTwitch } from "react-icons/fa";
+import { FaPlaystation } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="flex  justify-center items-start gap-[5rem] bg-[#0E0F10] text-white p-10">
-      <div className="flex justify-center items-start gap-[5rem]">
-        <div  className="space-y-3">
-          <h1 className="font-mono text-[1.5rem]">DC</h1>
+    <div className="flex  gap-[5rem] bg-footer text-white p-10 ">
+      <div className="flex  justify-center items-start gap-[5rem] max-w-screen-xl mx-auto">
+        <div className="space-y-3">
+          <h1 className="font-mono text-[1.5rem] border-b-2 border-b-yellow-400">
+            DC
+          </h1>
           <ul className="space-y-4">
             <li>Terms of use</li>
             <li>Privacy Policy</li>
@@ -22,7 +26,10 @@ const Footer = () => {
           </ul>
         </div>
         <div className="space-y-3">
-          <h1 className="font-mono text-[1.5rem]"> DC Comics</h1>
+          <h1 className="font-mono text-[1.5rem] border-b-2 border-b-yellow-400">
+            {" "}
+            DC Comics
+          </h1>
           <ul className="space-y-4">
             <li>Characters</li>
             <li>Comics</li>
@@ -33,8 +40,10 @@ const Footer = () => {
             <li>News</li>
           </ul>
         </div>
-        <div  className="space-y-3">
-          <h1 className="font-mono text-[1.5rem]">Shop</h1>
+        <div className="space-y-3">
+          <h1 className="font-mono text-[1.5rem] border-b-2 border-b-yellow-400">
+            Shop
+          </h1>
           <ul className="space-y-4">
             <li>Shop DC</li>
             <li>Shop DC</li>
@@ -42,9 +51,25 @@ const Footer = () => {
             <li>Shop DC Collectibles</li>
           </ul>
         </div>
-      </div>
-      <div className="absolute top-[5.5rem] right-0">
-        <img src={footerpic} alt="" className="h-[25rem]" />
+        <div className="space-y-4">
+          <h1 className="font-mono text-[1.3rem] ">E-mail</h1>
+          <input
+            type="text"
+            placeholder="example@gmail.com"
+            className="p-3 rounded-md w-[20rem]"
+          />
+          <ul className="flex gap-8">
+            <li>
+              <FaDiscord size={30}/>
+            </li>
+            <li>
+              <FaTwitch size={30}/>
+            </li>
+            <li>
+              <FaPlaystation size={30}/>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
