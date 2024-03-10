@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../Assets/Images/batman 4k wallpaper for iphone.png";
+import logo from "../Assets/Images/dclogo.png";
 import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
@@ -13,13 +13,22 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex justify-center items-center gap-7">
             <li className="font-mono font-light text-[1rem] hover:text-white">
-              GALLERY
+              Comics
             </li>
             <li className="font-mono font-light text-[1rem] hover:text-white">
-              STORY
+              Movies
             </li>
             <li className="font-mono font-light text-[1rem] hover:text-white">
-              TRAILER
+              Games
+            </li>
+            <li className="font-mono font-light text-[1rem] hover:text-white">
+              News
+            </li>
+            <li className="font-mono font-light text-[1rem] hover:text-white">
+              Shop
+            </li>
+            <li className="font-mono font-light text-[1rem] hover:text-white">
+             Collectibles
             </li>
           </ul>
         </div>
