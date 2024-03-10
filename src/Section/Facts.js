@@ -3,35 +3,37 @@ import factslogo from "../Assets/Images/pic4.png";
 
 const Facts = () => {
   return (
-    <div className="flex justify-center items-center bg-[#09121A] gap-[5rem]">
+    <div className="flex justify-center items-center bg-[#09121A] gap-[5rem] py-10">
       <div className="flex flex-col">
         <div className="flex flex-col">
           <h1 className="font-mono text-right text-white ">Character Facts</h1>
           <p className="text-[5rem] batmfa text-white text-center">Batman</p>
         </div>
         <div>
-          <ul className="text-white">
-            <li>
-              POWERS:
+          <ul className="text-white space-y-5 font-mono">
+            <li className="flex flex-col">
+              <span className="font-bold">POWERS:</span>
               <span>
-                {" "}
                 Exceptional Martial Artist,Combat Strategy, <br />
-                Inexhaustible wealth, Brilliant deductive skill,Advanced
+                Inexhaustible wealth, <br /> Brilliant deductive skill,Advanced
                 Technology.
               </span>
             </li>
-            <li>
-              OCCOPATION: <span>CEO of Wayne Enterprise</span>{" "}
+            <li className="flex flex-col">
+              <span className="font-bold"> OCCOPATION:</span>{" "}
+              <span>CEO of Wayne Enterprise</span>{" "}
             </li>
-            <li>
-              {" "}
-              ALIAS: <span>Dark Knight, Caped Crusader, Matches Malone</span>
+            <li className="flex flex-col">
+              <span className="font-bold">ALIAS:</span>
+              <span>Dark Knight, Caped Crusader, Matches Malone</span>
             </li>
-            <li>
-              FIRST APPEARANCE: <span>Detective Comics #27 (1939)</span>
+            <li className="flex flex-col">
+              <span className="font-bold"> FIRST APPEARANCE: </span>{" "}
+              <span>Detective Comics #27 (1939)</span>
             </li>
-            <li>
-              REAL NAME: <span>Bruce Wayne</span>
+            <li className="flex flex-col">
+              <span className="font-bold"> REAL NAME: </span>{" "}
+              <span>Bruce Wayne</span>
             </li>
           </ul>
         </div>
