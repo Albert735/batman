@@ -3,9 +3,9 @@ import { movie } from "../MovieCard"; // Assuming movies is an array
 
 const Movie = ({ items }) => {
   return (
-    <div className="flex flex-wrap flex-col justify-center items-center bg-[#FCF0C2] ">
+    <div className="flex flex-wrap flex-col justify-center items-center bg-[#0E0F10] ">
       <div className="mt-5">
-        <h1 className="batmfa text-[2rem]">Top Movies</h1>
+        <h1 className="batmfa text-[2rem] text-yellow-400">Top Movies</h1>
       </div>
       <div className="flex flex-col md:grid-cols-2  xl:flex-row justify-center items-center gap-10">
         {movie.map((movie) => (

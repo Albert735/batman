@@ -3,14 +3,14 @@ import factslogo from "../Assets/Images/pic4.png";
 
 const Facts = () => {
   return (
-    <div className="flex justify-center items-center bg-[#09121A] gap-[5rem] py-10">
+    <div className="flex justify-center items-center bg-[#0E0F10] gap-[5rem] py-10">
       <div className="flex flex-col">
         <div className="flex flex-col">
-          <h1 className="font-mono text-right text-white ">Character Facts</h1>
-          <p className="text-[5rem] batmfa text-white text-center">Batman</p>
+          <h1 className="font-mono text-right text-gray-200 ">Character Facts</h1>
+          <p className="text-[5rem] batmfa text-yellow-400 text-center">Batman</p>
         </div>
         <div>
-          <ul className="text-white space-y-5 font-mono">
+          <ul className="text-gray-200 space-y-5 font-mono">
             <li className="flex flex-col">
               <span className="font-bold">POWERS:</span>
               <span>

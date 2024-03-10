@@ -10,21 +10,27 @@ const Batmobile = () => {
     <div className="flex flex-col justify-center items-center bg-batmobile  text-white space-y-10 p-10">
       <div className="flex flex-row">
         <h1 className="batmfa text-[5rem]">BATMOBILE</h1>
-        <p className="batmfo">More Than just a car</p>
+        <p className="batmfo text-yellow-400">More Than just a car</p>
       </div>
 
-      <div className="flex justify-center items-center max-w-screen-xl gap-10">
-        <div className="space-y-4">
-          <h1 className="batmfa text-center text-[2rem] text-yellow-400">
-            The Ultimate weapon
-          </h1>
-          <p className="font-mono w-[30rem] text-justify">
-            The Batmobile is Batman's iconic vehicle, transforming from a
-            classic muscle car to a high-tech beast. Packed with armor, weapons,
-            and advanced tech, it's not just transport - it's a command center
-            and a psychological weapon. Always evolving, the Batmobile
-            symbolizes Batman's power and commitment to justice.
-          </p>
+      <div className="flex justify-center max-w-screen-xl gap-10">
+        <div className="space-y-[3rem]">
+          <div>
+            <h1 className="batmfa text-center text-[2rem] text-yellow-400">
+              The Ultimate weapon
+            </h1>
+            <p className="font-mono w-[30rem] text-justify">
+              The Batmobile is Batman's iconic vehicle, transforming from a
+              classic muscle car to a high-tech beast. Packed with armor,
+              weapons, and advanced tech, it's not just transport - it's a
+              command center and a psychological weapon. Always evolving, the
+              Batmobile symbolizes Batman's power and commitment to justice.
+            </p>
+          </div>
+
+          <button className="bg-yellow-400 text-black w-[10rem] rounded-md  p-3">
+            Check it out
+          </button>
         </div>
 
         <img
