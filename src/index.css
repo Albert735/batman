@@ -4,14 +4,14 @@
 
 .bg-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./Assets/Images/wallpaperflare.com_wallpaper.jpg);
+    url(./Assets/Images/pic1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg-footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(./Assets/Images/bg1.png);
   background-position: center;
   background-repeat: no-repeat;

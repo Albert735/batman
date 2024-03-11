@@ -4,7 +4,7 @@ import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center p-4 bg-transparent">
+    <div className="flex fixed z-10 justify-between items-center p-4 bg-transparent text-white">
       <div>
         <img src={logo} alt="" className="h-[2rem]" />
       </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
               Shop
             </li>
             <li className="font-mono font-light text-[1rem] hover:text-white">
-             Collectibles
+              Collectibles
             </li>
           </ul>
         </div>
