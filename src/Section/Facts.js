@@ -3,7 +3,7 @@ import factslogo from "../Assets/Images/pic4.png";
 
 const Facts = () => {
   return (
-    <div className="flex justify-center items-center bg-[#0E0F10] gap-[5rem] py-10">
+    <div id="facts" className="flex justify-center items-center bg-[#0E0F10] gap-[5rem] py-10">
       <div className="flex flex-col">
         <div className="flex flex-col">
           <h1 className="font-mono text-right text-gray-200 ">Character Facts</h1>

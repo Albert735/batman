@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 .bg-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(./Assets/Images/pic1.png);
@@ -16,6 +20,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .bg-batmobile {

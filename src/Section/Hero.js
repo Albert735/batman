@@ -1,57 +1,54 @@
 import React from "react";
-import man from "../Assets/Images/1340752.png";
-import left from "../Assets/Images/Batman Art.png";
-import { FaShieldAlt } from "react-icons/fa";
-import { GiPistolGun } from "react-icons/gi";
-import { GiKnifeThrust } from "react-icons/gi";
-import { GiHeavyBullets } from "react-icons/gi";
-import { GiKingJuMask } from "react-icons/gi";
+// import man from "../Assets/Images/1340752.png";
+// import left from "../Assets/Images/Batman Art.png";
+// import { FaShieldAlt } from "react-icons/fa";
+// import { GiPistolGun } from "react-icons/gi";
+// import { GiKnifeThrust } from "react-icons/gi";
+// import { GiHeavyBullets } from "react-icons/gi";
+// import { GiKingJuMask } from "react-icons/gi";
+import videoBg from "../Assets/Images/vid1.mp4";
+
 const Hero = () => {
   return (
-    <div className="flex relative flex-col justify-center items-center bg-image h-screen">
-      {/* <div className="flex flex-col justify-center items-center">
-        <h1 className="batmfa text-[10rem] text-gray-400">BATMAN</h1>
-        <p className="batmfo text-[3rem] text-yellow-400 text-center">
-          A SYMBOL Of <br /> VENGEANCE
-        </p>
-      </div> */}
+    <div className="flex relative flex-col justify-center items-center  h-screen">
+      <div className="flex relative w-full flex-col justify-center items-center  h-screen">
+        <div className=" absolute bg-black/50 h-screen w-full " />
+        <video src={videoBg} autoPlay loop muted></video>
+      </div>
 
- 
- 
- <div className="flex absolute top-2 left-10 justify-center items-center">
-        <h1 className="batmfa font-sans md:text-[10rem] text-white font-light">
+      <div className="flex flex-col absolute bottom-10 leading-tight left-10 justify-center items-start">
+        <h1 className="batmfa font-sans xl:text-[10rem] text-white font-light">
           BAtMAN
         </h1>
-      </div>
-      <div className="flex absolute top-[13rem] left-10 justify-center items-center">
-        <p className="batmfo font-sans md:text-[3rem] text-white font-light">
+        <p className="batmfo font-sans xl:text-[3rem] text-white font-light">
           A SYMBOL OF <br /> VENGEANCE
         </p>
       </div>
-      <div className="flex flex-col  absolute top-[40rem] left-[15rem] justify-center items-start">
-        <p className="flex flex-col batmfo font-sans md:text-[3rem] text-white font-light leading-normal">
-          <span className="font-mono text-[2rem]">City:</span>{" "}
-          <span>GOTHAM CITY</span>
+
+      <div className="flex flex-col  md:absolute xl:bottom-20 md:bottom-10 md:right-10 justify-center items-start">
+        <p className="flex flex-col batmfo font-sans xl:text-[3rem] text-white font-light leading-normal">
+          <span className="font-mono xl:text-[2rem]">City:</span>{" "}
+          <span className="">GOTHAM CITY</span>
         </p>
-        <p className=" font-mono font-semi-bold text-[1.3rem] text-white border-b-4 border-yellow-400">
+        <p className=" font-mono font-semi-bold xl:text-[1.3rem] text-white border-b-4 border-yellow-400">
           Dangerous
         </p>
-        <p className="batmfa text-[1.3rem] text-white">
+        <p className="batmfa xl:text-[1.3rem] text-white">
           <span>Zip Code</span>:123456
         </p>
       </div>
-      <div className="absolute -left-[20rem] bottom-[0rem]">
+      {/* <div className="absolute -left-[20rem] bottom-[0rem]">
         <img src={left} alt="" className="h-[40rem] " />
-      </div> 
+      </div> */}
 
-       <div className="absolute right-0 bottom-0">
+      {/* <div className="absolute right-0 bottom-0">
         <img
           src={man}
           alt=""
           className="h-[40rem] rounded-b-md brightness-125 "
         />
-      </div> 
-      <div className="flex absolute bottom-11 right-5 flex-col justify-center items-start text-white space-y-3">
+      </div> */}
+      {/* <div className="flex absolute bottom-11 right-5 flex-col justify-center items-start text-white space-y-3">
         <h1 className="font-mono text-[1.3rem] border-b-4 border-yellow-400">
           Specialty
         </h1>
@@ -69,8 +66,8 @@ const Hero = () => {
             <span>Tech Guy </span>
           </li>
         </ul>
-      </div> 
-      <div className="absolute top-8 right-2 w-[25rem] flex flex-col justify-center items-start text-white">
+      </div> */}
+      {/* <div className="absolute top-16 right-2 w-[25rem] flex flex-col justify-center items-start text-white">
         <h1 className="batmfa border-b-4 border-yellow-400 text-[2rem]">
           Gotham's Dark Knight
         </h1>
@@ -83,12 +80,12 @@ const Hero = () => {
           and television, inspiring generations to confront darkness and rise
           above adversity.
         </p>
-      </div>
-       <div className="absolute top-[20rem] left-[40rem] flex flex-col text-white">
+      </div> */}
+      {/* <div className="absolute top-[20rem] left-[40rem] flex flex-col text-white">
         <span className="font-mono text-[1.3rem]">Alias:</span>
         <span className="batmfa text-[1.3rem] font-lighter">Bruce Wayne</span>
-      </div> 
-      <div className="absolute right-[23rem] top-[30rem]">
+      </div> */}
+      {/* <div className="absolute right-[23rem] top-[30rem]">
         <h1 className="font-mono text-white border-b-4">Armour</h1>
         <div className="">
           <span className="m-4 flex-row">
@@ -128,7 +125,7 @@ const Hero = () => {
             />
           </span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

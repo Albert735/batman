@@ -11,7 +11,7 @@ const HamburgerMenu = () => {
   };
   return (
     <div>
-      <button onClick={toggling} className="md:hidden">
+      <button onClick={toggling} className="xl:hidden">
         <IoMenu size={30} />
       </button>
 

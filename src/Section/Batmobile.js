@@ -7,7 +7,10 @@ import mobile5 from "../Assets/Images/mobile5.jpeg";
 
 const Batmobile = () => {
   return (
-    <div className="flex flex-col justify-center items-center bg-batmobile  text-white space-y-10 p-10">
+    <div
+      id="Bat Mobile"
+      className="flex flex-col justify-center items-center bg-batmobile  text-white space-y-10 p-10"
+    >
       <div className="flex flex-row">
         <h1 className="batmfa text-[5rem]">BATMOBILE</h1>
         <p className="batmfo text-yellow-400">More Than just a car</p>
@@ -36,11 +39,11 @@ const Batmobile = () => {
         <img
           src={pic1}
           alt=""
-          className="h-[30rem] brightness-125 rounded-md"
+          className="xl:h-[30rem] h-[10rem] brightness-125 rounded-md"
         />
       </div>
       <div className="flex justify-center items-center max-w-screen-xl font-mono">
-        <ul className="flex justify-center items-start gap-[5rem]">
+        <ul className="grid grid-cols-2 xl:flex justify-center items-start gap-[5rem]">
           <li className="flex flex-col space-y-2">
             <span className="border-b-2 p-1 font-bold border-yellow-400">
               length:

@@ -56,7 +56,7 @@ const Footer = () => {
           <input
             type="text"
             placeholder="example@gmail.com"
-            className="p-3 rounded-md w-[20rem]"
+            className="p-3 rounded-md xl:w-[20rem]"
           />
           <ul className="flex gap-8">
             <li>
