@@ -16,7 +16,7 @@ const HamburgerMenu = () => {
       </button>
 
       {isOpen && (
-        <div className="fixed w-full h-[20rem] left-0 top-0 bg-[#e28021] p-10 z-20">
+        <div className="fixed w-full h-[30rem] left-0 top-0 bg-[#173250] p-10 z-20 border-b-4 ">
           <div className="flex  justify-center items-center">
             <IoMdCloseCircleOutline
               onClick={toggleDropdown}
@@ -29,19 +29,37 @@ const HamburgerMenu = () => {
                 onClick={toggleDropdown}
                 className="font-mono font-light text-[1.3rem] hover:text-white"
               >
-                Gallery
+                Comics
               </li>
               <li
                 onClick={toggleDropdown}
                 className="font-mono font-light text-[1.3rem] hover:text-white"
               >
-                Story
+                <a href="#movie"> Movies</a>
               </li>
               <li
                 onClick={toggleDropdown}
                 className="font-mono font-light text-[1.3rem] hover:text-white"
               >
-                Trailer
+                Bat Mobile
+              </li>
+              <li
+                onClick={toggleDropdown}
+                className="font-mono font-light text-[1.3rem] hover:text-white"
+              >
+                Facts
+              </li>
+              <li
+                onClick={toggleDropdown}
+                className="font-mono font-light text-[1.3rem] hover:text-white"
+              >
+                Shop
+              </li>
+              <li
+                onClick={toggleDropdown}
+                className="font-mono font-light text-[1.3rem] hover:text-white"
+              >
+                Collectibles
               </li>
             </ul>
           </div>

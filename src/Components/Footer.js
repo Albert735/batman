@@ -5,10 +5,10 @@ import { FaPlaystation } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="flex  gap-[5rem] bg-footer text-white p-10 ">
-      <div className="flex  justify-center items-start gap-[5rem] max-w-screen-xl mx-auto">
+    <div className="flex   gap-[5rem] bg-footer text-white p-10 ">
+      <div className="md:flex grid grid-cols-2   justify-center items-start gap-[5rem] max-w-screen-xl mx-auto">
         <div className="space-y-3">
-          <h1 className="font-mono text-[1.5rem] border-b-2 border-b-yellow-400">
+          <h1 className="font-mono xl:text-[1.5rem] border-b-2 border-b-yellow-400">
             DC
           </h1>
           <ul className="space-y-4">
@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="space-y-3">
-          <h1 className="font-mono text-[1.5rem] border-b-2 border-b-yellow-400">
+          <h1 className="font-mono xl:text-[1.5rem] border-b-2 border-b-yellow-400">
             {" "}
             DC Comics
           </h1>
@@ -41,7 +41,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="space-y-3">
-          <h1 className="font-mono text-[1.5rem] border-b-2 border-b-yellow-400">
+          <h1 className="font-mono xl:text-[1.5rem] border-b-2 border-b-yellow-400">
             Shop
           </h1>
           <ul className="space-y-4">
@@ -51,22 +51,22 @@ const Footer = () => {
             <li>Shop DC Collectibles</li>
           </ul>
         </div>
-        <div className="space-y-4">
+        <div className="space-y-4 ">
           <h1 className="font-mono text-[1.3rem] ">E-mail</h1>
           <input
             type="text"
             placeholder="example@gmail.com"
-            className="p-3 rounded-md xl:w-[20rem]"
+            className="p-3 rounded-md w-full xl:w-[20rem]"
           />
           <ul className="flex gap-8">
             <li>
-              <FaDiscord size={30}/>
+              <FaDiscord size={30} />
             </li>
             <li>
-              <FaTwitch size={30}/>
+              <FaTwitch size={30} />
             </li>
             <li>
-              <FaPlaystation size={30}/>
+              <FaPlaystation size={30} />
             </li>
           </ul>
         </div>

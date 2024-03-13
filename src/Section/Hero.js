@@ -16,7 +16,7 @@ const Hero = () => {
         <video src={videoBg} autoPlay loop muted></video>
       </div>
 
-      <div className="flex flex-col absolute bottom-10 leading-tight left-10 justify-center items-start">
+      <div className="flex flex-col absolute bottom-0 left-0 md:bottom-10 leading-tight md:left-10 justify-center items-start">
         <h1 className="batmfa font-sans xl:text-[10rem] text-white font-light">
           BAtMAN
         </h1>
@@ -25,7 +25,7 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="flex flex-col  md:absolute xl:bottom-20 md:bottom-10 md:right-10 justify-center items-start">
+      <div className="flex flex-col bottom-0 right-0  absolute xl:bottom-20 md:bottom-10 md:right-10 justify-center items-start">
         <p className="flex flex-col batmfo font-sans xl:text-[3rem] text-white font-light leading-normal">
           <span className="font-mono xl:text-[2rem]">City:</span>{" "}
           <span className="">GOTHAM CITY</span>

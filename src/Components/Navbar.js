@@ -4,7 +4,7 @@ import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
   return (
-    <div className="flex fixed w-full mb-5 z-10 justify-between items-center p-4 backdrop-blur-lg text-white gap-80 font-bold font-mono">
+    <div className="flex fixed w-full mb-5 z-10 justify-between items-center p-4 backdrop-blur-lg text-white  font-bold font-mono">
       <img src={logo} alt="" className="h-[2rem]" />
 
       <div className="flex">
